@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:malika_lessons/lesson05/lesson05.dart';
+import 'package:malika_lessons/lesson07/lesson07.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Lesson05(),
+      home: const SignInScreen(),
     );
   }
 }
